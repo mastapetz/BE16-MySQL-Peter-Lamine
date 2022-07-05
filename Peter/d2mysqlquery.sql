@@ -33,3 +33,4 @@ INSERT INTO `plane`(`plane_reg_NR`, `plane_model`, `plane_manufacturer`, `plane_
     UPDATE `plane` SET `plane_reg_NR` = '3230' WHERE `plane`.`plane_reg_NR` = 0; 
 --data 3
 INSERT INTO `flight`(`fk_airport_ID`, `fk_plane_reg_NR`, `flight_origin`, `flight_destination`) VALUES ('1','4240','Paris CDG','Singapore SIN'), ('2','4250','Vienna VIE','Zurich ZRH'),('8','4240','Singapore SIN', 'Paris CDG'); 
+--ex 3 done with drawsql
